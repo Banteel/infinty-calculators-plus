@@ -23,7 +23,6 @@
 #limitations under the License.
 
 
-
 # 	A Sub-calculator (named):
 #	"InfintyPlus""
 #	The sub-calculator located here in the Python file is the results of sub-calculations permutated from two seporate equations performing the exact same results, for example here is always consistently the number "one".
@@ -57,8 +56,8 @@ def InfinityPlus():
 				print('   Error: Please enter valid numbers in scientific or decimal format. (ex. 21, 21.21, .21, 21.21e21 or enter  "quit" to close.')
 				continue
 				
-			p1 = Decimal(a / b)
-			p2 = Decimal(a - b)
+			p1 = a / b
+			p2 = a - b
 			eq1 = p1 - (p2 / b)
 			print(f'\n   Calibrator Macro: a ÷ b - (a - b) ÷ b =   {eq1: .2g}')
 			result1 = a / b
