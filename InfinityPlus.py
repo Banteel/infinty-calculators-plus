@@ -34,28 +34,6 @@ import math
 from math import ceil
 from decimal import Decimal, localcontext, InvalidOperation
 
-#def format_repeating(n, d):
-#    res = [str(n // d), "."]
-#    rem_map = {}
-#    rem = n % d
-#    while rem != 0 and rem not in rem_map:
-#        rem_map[rem] = len(res)
-#        rem *= 10
-#        res.append(str(rem // d))
-#        rem %= d
-#    if rem != 0: # If it repeats
-#        res.insert(rem_map[rem], "(")
-#        res.append(")")
-#    return "".join(res).rstrip(".")
-
-#from fractions import Fraction
-
-#def format_exact(a, b):
-#    f = Fraction(a, b)
-#    if f.denominator == 1:
-#        return str(f.numerator)
-#    return f"{f.numerator}/{f.denominator}"
-
 def InfinityPlus():
 	print('		Number Sub-Calculator: "InfinityPlus"')
 	
@@ -118,3 +96,25 @@ def InfinityPlus():
 			
 if __name__ == "__main__":
 	InfinityPlus()
+
+#def format_repeating(n, d):
+#    res = [str(n // d), "."]
+#    rem_map = {}
+#    rem = n % d
+#    while rem != 0 and rem not in rem_map:
+#        rem_map[rem] = len(res)
+#        rem *= 10
+#        res.append(str(rem // d))
+#        rem %= d
+#    if rem != 0: # If it repeats
+#        res.insert(rem_map[rem], "(")
+#        res.append(")")
+#    return "".join(res).rstrip(".")
+
+#from fractions import Fraction
+
+#def format_exact(a, b):
+#    f = Fraction(a, b)
+#    if f.denominator == 1:
+#        return str(f.numerator)
+#    return f"{f.numerator}/{f.denominator}"
