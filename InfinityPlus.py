@@ -28,12 +28,6 @@
 #	"InfintyPlus""
 #	The sub-calculator located here in the Python file is the results of sub-calculations permutated from two seporate equations performing the exact same results, for example here is always consistently the number "one".
 
-
-
-# 	A Sub-calculator (named):
-#	"InfintyPlus""
-#	The sub-calculator located here in the Python file is the results of sub-calculations permutated from two seporate equations performing the exact same results, for example here is always consistently the number "one".
-
 import os
 #import numpy as np
 import math
