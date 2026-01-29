@@ -2,25 +2,31 @@
 # InfintyPlus
 # based on Copyright (c)
 
-	Copyright (c) 2025 (InfintyNow), Copyright (c) 2027 (InfintyPlus) Trevor McQuaker
- All rights reserved.
+#	Copyright (c) 2025 (InfintyNow), Copyright (c) 2027 (InfintyPlus) Trevor McQuaker
+# All rights reserved.
 
- Redistribution and use in source and binary forms, with or without
- modification, are permitted under the terms of the Apache-2.0
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted under the terms of the Apache-2.0
 
-	Copyright 2025, 2027 Trevor McQuaker
+#	Copyright 2025, 2027 Trevor McQuaker
 
-Licensed under the Apache License, Version 2.0 (the "Apache-2.0");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+#Licensed under the Apache License, Version 2.0 (the "Apache-2.0");
+#you may not use this file except in compliance with the License.
+#You may obtain a copy of the License at
 
-http://www.apache.org/licenses/LICENSE-2.0
+#http://www.apache.org/licenses/LICENSE-2.0
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+#Unless required by applicable law or agreed to in writing, software
+#distributed under the License is distributed on an "AS IS" BASIS,
+#WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#See the License for the specific language governing permissions and
+#limitations under the License.
+
+
+
+# 	A Sub-calculator (named):
+#	"InfintyPlus""
+#	The sub-calculator located here in the Python file is the results of sub-calculations permutated from two seporate equations performing the exact same results, for example here is always consistently the number "one".
 
 
 
