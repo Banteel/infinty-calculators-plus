@@ -37,15 +37,15 @@ def InfinityPlus():
 	print('		Number Sub-Calculator: "InfinityPlus"')
 	
 	with localcontext() as ctx:
-		ctx.prec = 100000000
+		ctx.prec = 1000000
 		while True:
 			try:
 				print('   "Input Whole Numbers (21), Fractions (.21), Whole number with fraction (21.21), or Whole number with fraction including "exponent" eg. "21.21e21" or "21.21e-21"')
-				num1 = input('   \n   Type "quit" or Enter value #1:\n').strip().lower()
+				num1 = input('   \n   Type "quit" or Enter value #1:\n').lower()
 				if num1 == "quit":
 					break
 					
-				num2 = input('   \n   Type "quit" or Enter value #2:\n').strip().lower()
+				num2 = input('   \n   Type "quit" or Enter value #2:\n').lower()
 				if num2 == "quit":
 					break
 				
@@ -59,7 +59,7 @@ def InfinityPlus():
 			p1 = a / b
 			p2 = a - b
 			eq1 = p1 - (p2 / b)
-			print(f'\n   Calibrator Macro: a ÷ b - (a - b) ÷ b =   {eq1: .2g}')
+			print(f'\n   Calibrator Macro: \n   a ÷ b - (a - b) ÷ b\n   = {eq1: .2g}')
 			result1 = a / b
 			print(f'   A: a ÷ b\n   ={result1.normalize(): .120g}')
 			result2 = (a / b) - (a - b)
@@ -74,7 +74,7 @@ def InfinityPlus():
 			print(f"   F: (a - b) ÷ b\n   ={result6: .120g}")
 				
 			eq2 = (((a / b) / a) * b)
-			print(f"\n   Calibrator Micro: a ÷ b ÷ a × b = {eq2: .2g}")
+			print(f"\n   Calibrator Micro:\n   a ÷ b ÷ a × b\n   = {eq2: .2g}")
 			result7 = a / b
 			print(f"   H:  a ÷ b\n   ={result7: .120g}")
 			result8 = (a / b) / a
