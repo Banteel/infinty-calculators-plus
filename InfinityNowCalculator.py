@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# InfintyPlus
+# InfintyNow Calculator
 # based on Copyright (c)
 
 #        Copyright (c) 2025 (InfintyPlus Calculator), Copyright (c) 2027 (InfintyPlus Calculator) Trevor McQuaker
