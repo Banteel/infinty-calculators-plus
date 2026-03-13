@@ -24,7 +24,7 @@
 
 
 #         A Sub-calculator (named):
-#        "InfintyPlus Calculator"
+#        "InfintyNow Calculator"
 #        The sub-calculator located here in the Python file is the results of sub-calculations derived with calculations using two seporate equations performing the same full equation results, for the two full calculations in this coded Python file is always consistently equals number One.
 
 import os
