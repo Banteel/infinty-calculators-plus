@@ -2,7 +2,7 @@
 # InfintyPlus
 # based on Copyright (c)
 
-#        Copyright (c) 2025 (InfintyNow), Copyright (c) 2027 (InfintyPlus) Trevor McQuaker
+#        Copyright (c) 2025 (InfintyPlus Calculator), Copyright (c) 2027 (InfintyPlus Calculator) Trevor McQuaker
 # All rights reserved.
 
 # Redistribution and use in source and binary forms, with or without
@@ -24,8 +24,8 @@
 
 
 #         A Sub-calculator (named):
-#        "InfintyPlus""
-#        The sub-calculator located here in the Python file is the results of sub-calculations permutated from two seporate equations performing the exact same results, for example here is always consistently the number "one".
+#        "InfintyPlus Calculator"
+#        The sub-calculator located here in the Python file is the results of sub-calculations derived with calculations using two seporate equations performing the same full equation results, for the two full calculations in this coded Python file is always consistently equals number One.
 
 import os
 #import numpy as np
@@ -33,14 +33,14 @@ import math
 import sys
 from decimal import Decimal, localcontext, Context, InvalidOperation
 
-def InfinityPlus():
+def InfinityNowCalculator():
 	num1 = None
 	num2 = None
 	num3 = None
 	focus = None
 	yesorno = None
 	
-	print('          Number Sub-Calculator: "InfinityPlus"')
+	print('          Number Sub-Calculator: "InfinityNow Calculator"')
 	
 	with localcontext() as ctx:
 		ctx.prec = 100000000
@@ -191,11 +191,12 @@ def InfinityPlus():
 #		else:
 #			os.system('clear')
 					
-		print('\n   "InfintyPlus" script closed.\n')
+		print('\n   "InfintyNow Calculator" script closed.\n')
 
 if __name__ == "__main__":
-        InfinityPlus()
+        InfinityNowCalculator()
 
+# Parse and find,if any,repeating decimals
 #def format_repeating(n, d):
 #    res = [str(n // d), "."]
 #    rem_map = {}
@@ -210,8 +211,8 @@ if __name__ == "__main__":
 #        res.append(")")
 #    return "".join(res).rstrip(".")
 
+# Print to screen fraction symbol of results
 #from fractions import Fraction
-
 #def format_exact(a, b):
 #    f = Fraction(a, b)
 #    if f.denominator == 1:
