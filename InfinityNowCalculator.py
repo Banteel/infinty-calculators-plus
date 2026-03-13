@@ -2,7 +2,7 @@
 # InfintyNow Calculator
 # based on Copyright (c)
 
-#        Copyright (c) 2025 (InfintyPlus Calculator), Copyright (c) 2027 (InfintyPlus Calculator) Trevor McQuaker
+#        Copyright (c) 2025 (InfintyNow Calculator), Copyright (c) 2027 (InfintyNow Calculator) Trevor McQuaker
 # All rights reserved.
 
 # Redistribution and use in source and binary forms, with or without
